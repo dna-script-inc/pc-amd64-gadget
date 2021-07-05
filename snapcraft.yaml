@@ -24,3 +24,65 @@ parts:
     plugin: make
     after: [grub-prepare]
 
+slots:
+  serial0:
+    interface: serial-port
+    path: /dev/ttyUSB0
+  serial1:
+    interface: serial-port
+    path: /dev/ttyUSB1
+  serial2:
+    interface: serial-port
+    path: /dev/ttyUSB2
+  serial3:
+    interface: serial-port
+    path: /dev/ttyUSB3
+  serial4:
+    interface: serial-port
+    path: /dev/ttyUSB4
+  serial5:
+    interface: serial-port
+    path: /dev/ttyUSB5
+  serial6:
+    interface: serial-port
+    path: /dev/ttyUSB6
+  serial7:
+    interface: serial-port
+    path: /dev/ttyUSB7
+  serial8:
+    interface: serial-port
+    path: /dev/ttyUSB8
+  serial9:
+    interface: serial-port
+    path: /dev/ttyUSB9
+  serial10:
+    interface: serial-port
+    path: /dev/ttyUSB10
+  serial11:
+    interface: serial-port
+    path: /dev/ttyUSB11
+  serial12:
+    interface: serial-port
+    path: /dev/ttyUSB12
+  serial13:
+    interface: serial-port
+    path: /dev/ttyUSB13
+  serial14:
+    interface: serial-port
+    path: /dev/ttyUSB14
+  serial15:
+    interface: serial-port
+    path: /dev/ttyUSB15
+  serial16:
+    interface: serial-port
+    path: /dev/ttyUSB016
+  serial17:
+    interface: serial-port
+    path: /dev/ttyUSB17
+  serial18:
+    interface: serial-port
+    path: /dev/ttyUSB18
+  serial19:
+    interface: serial-port
+    path: /dev/ttyUSB19
+
